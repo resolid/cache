@@ -1,0 +1,4 @@
+{
+  "extends": "@resolid/config/tsconfig/lib.json",
+  "include": ["src/**/*", "*.config.ts"]
+}

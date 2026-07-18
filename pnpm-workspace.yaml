@@ -1,0 +1,12 @@
+packages:
+  - packages/*
+overrides:
+  typescript: ^7.0.2
+  safer-buffer: npm:@nolyfill/safer-buffer@^1
+engineStrict: true
+allowBuilds:
+  lefthook: true
+minimumReleaseAge: 600
+minimumReleaseAgeExclude:
+  - "@resolid/config"
+  - "@resolid/utils"

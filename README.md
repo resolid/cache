@@ -1,0 +1,32 @@
+<p align="center">
+  <a href="https://www.resolid.tech" target="_blank">
+    <img alt="Resolid" src=".github/assets/resolid.svg" width="90" />
+  </a>
+</p>
+<h1 align="center">
+  Resolid Cache
+</h1>
+
+<p align="center">
+ High-performance cache abstraction for Node.js and modern JavaScript runtimes.
+</p>
+
+## Website
+
+[resolid.tech](https://www.resolid.tech)
+
+## Contributing Guide
+
+[CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Code of Conduct
+
+[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+
+## License
+
+MIT License (MIT). Please see [LICENSE](./LICENSE) for more information.
+
+## Thanks
+
+![JetBrain](.github/assets/jetbrain.svg)
