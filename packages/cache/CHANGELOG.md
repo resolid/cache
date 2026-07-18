@@ -1,5 +1,11 @@
 # @resolid/cache
 
+## 1.3.0
+
+### Minor Changes
+
+- [`4ee8ed6`](https://github.com/resolid/cache/commit/4ee8ed624d2604ab66ab60e37a8322ec70d32835) - feat: extract cache packages from resolid monorepo
+
 ## 1.2.3
 
 ### Patch Changes
