@@ -6,6 +6,7 @@ import nodePath from "node:path";
 export default async function (): Promise<() => Promise<void>> {
   const composeFile = nodePath.resolve(import.meta.dirname, `./docker/redis-compose.yaml`);
 
+  // oxlint-disable-next-line node/no-sync
   execSync(`docker compose -f ${composeFile} --project-name resolid up -d`, {
     stdio: "inherit",
   });
@@ -50,6 +51,7 @@ export default async function (): Promise<() => Promise<void>> {
   );
 
   return async () => {
+    // oxlint-disable-next-line node/no-sync
     execSync(`docker compose -f ${composeFile} --project-name resolid down -v --remove-orphans`, {
       stdio: "inherit",
     });
