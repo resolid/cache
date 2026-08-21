@@ -44,7 +44,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@redis/client": "^6.2.0",
+    "@redis/client": "^6.2.1",
     "cluster-key-slot": "^1.1.2"
   },
   "devDependencies": {
