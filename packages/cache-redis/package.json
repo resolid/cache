@@ -44,12 +44,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@redis/client": "^6.3.0",
+    "@redis/client": "^6.3.1",
     "cluster-key-slot": "^1.1.2"
   },
   "devDependencies": {
-    "@resolid/utils": "^1.7.2",
-    "tsdown": "^0.23.1"
+    "@resolid/utils": "^2.0.0",
+    "tsdown": "^0.23.5"
   },
   "peerDependencies": {
     "@resolid/cache": "workspace:^"
